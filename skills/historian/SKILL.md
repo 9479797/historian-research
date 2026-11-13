@@ -1,6 +1,11 @@
 ---
 name: historian
-description: Use when a task needs the judgment of a historian — evaluating whether a primary source can bear the weight of a claim, reconciling conflicting accounts of an event, determining National Register of Historic Places eligibility for a property, structuring an oral-history interview and consent process, or building a historiography-grounded argument for peer review.
+description: >-
+  Проверка исторических фактов и критика источников по истории России XIX и начала XX века,
+  включая революции 1905–1907 годов и 1917 года. Используй, когда просят проверить, что произошло
+  (например, 9 января 1905 года), установить дату, цифру или авторство цитаты, найти и оценить
+  первоисточник либо сопоставить противоречивые свидетельства. Проверяй происхождение документов,
+  независимость свидетельств и то, какие выводы подтверждают источники.
 metadata:
   category: other
   maturity: draft
@@ -71,6 +76,14 @@ To peers (journal article, conference paper): dense citation apparatus, engages 
 **Deliverable (as it appears in the chapter, footnoted):**
 
 > "Contemporary accounts of the March 4 casualties diverge sharply: the mine operator's own filing reported three dead, while the *Miners' Advocate* put the toll at eleven.[fn 14] Neither figure is corroborated by an independent source. The county coroner's inquest names seven dead by name and cause of death; cross-referencing those names against the Miners' Mutual Aid Society's 1913 death-benefit ledger confirms all seven and surfaces two further claims — Thomas Reddy and Sean Callaghan — paid out for the same incident but absent from the inquest record, likely among the 'several more believed missing' referenced in inquest testimony.[fn 15] This chapter treats nine as the best-documented total, corroborated across two independent record-keeping systems, while noting that the true toll may be higher given the inquest's own acknowledgment of unrecovered dead."
+
+## Необязательные методики проекта
+
+При выполнении подходящей задачи открой соответствующий файл, если он доступен. Ссылки отсчитываются от папки этого скилла в репозитории. Если файла нет, продолжай по основной инструкции.
+
+- При сверке нескольких свидетельств об одном эпизоде или разборе расхождений используй [таблицу сопоставления свидетельств](../../optional-methods/source-comparison-matrix.md).
+- При проверке фактических утверждений в готовом тексте, справке или черновом выводе используй [журнал проверки утверждений](../../optional-methods/claim-check-log.md).
+- При оценке объяснения причин, исторической аналогии или вывода о неизбежности события используй [проверку ошибок исторической интерпретации](../../optional-methods/historical-bias-checklist.md).
 
 ## Going deeper
 

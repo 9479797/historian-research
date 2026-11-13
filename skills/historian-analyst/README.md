@@ -35,5 +35,6 @@ Enables rigorous historical analysis using source criticism, temporal frameworks
 
 ## Resources
 
-- Complete analysis framework in SKILL.md
-- Quick reference in QUICK_REFERENCE.md
+- [Core workflow](SKILL.md)
+- [Complete analysis framework](references/full-methodology.md)
+- [Original quick reference](QUICK_REFERENCE.md)
