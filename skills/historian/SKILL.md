@@ -88,7 +88,7 @@ To peers (journal article, conference paper): dense citation apparatus, engages 
 
 - [references/artifacts.md](references/artifacts.md) — load the source-evaluation table when documenting evidence or the sample peer-review response when revising a draft.
 - [references/red-flags.md](references/red-flags.md) — load when a source or a draft argument feels off: signals with thresholds, the first question to ask, and what to pull to check.
-- [references/vocabulary.md](references/vocabulary.md) — load for precise terms of art (historiography, presentism, corroboration, integrity) and where generalists misuse them.
+- [references/vocabulary.md](references/vocabulary.md) — load for precise terms of art (historiography, presentism, corroboration, provenance) and where generalists misuse them.
 
 ## Sources
 

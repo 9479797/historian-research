@@ -44,16 +44,6 @@ The documented chain of custody and origin of a source or object, from creation 
 *Usage:* "The letter's provenance is solid — family papers, donated intact, with an unbroken accession trail — which is why we trust the external criticism."
 *Misuse:* used loosely to mean "where it came from" in a vague sense, rather than the specific, checkable custody chain that authenticates a source.
 
-**Determination of Eligibility (DOE)**
-A formal finding, under National Register of Historic Places criteria, that a property qualifies for listing — a distinct step from actual nomination/listing, and the trigger for Section 106 review on federally involved projects.
-*Usage:* "We issued a DOE of eligible under Criterion C; that triggers Section 106 review before the highway alternative can proceed."
-*Misuse:* treating "eligible" and "listed" as the same status — a property can be determined eligible and never formally listed, and still carry the same Section 106 review obligation.
-
-**Integrity (National Register sense)**
-The extent to which a property retains the physical characteristics (location, design, setting, materials, workmanship, feeling, association) that convey its historic significance — distinct from "good condition."
-*Usage:* "The building is structurally sound, but it's lost design and setting integrity — the original façade was re-clad and the surrounding block was demolished."
-*Misuse:* equating integrity with physical condition; a deteriorated but unaltered building can have high integrity, and a well-maintained but heavily renovated one can have almost none.
-
 **Oral history vs. oral tradition**
 Oral history is a recorded interview with a living person about their own remembered experience, generally treated as a primary source. Oral tradition is a story transmitted across generations, treated as evidence of collective memory and meaning-making, not a direct eyewitness record of the original event.
 *Usage:* "The 1970s interview is oral history — she was there. The origin story her grandchildren tell is oral tradition — evidence of what the family believes happened, not a primary account of the event itself."

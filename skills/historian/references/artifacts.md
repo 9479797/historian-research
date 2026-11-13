@@ -19,41 +19,6 @@ Run this for any source a load-bearing claim will rest on. Fill it before extrac
 
 ---
 
-## National Register of Historic Places — Determination of Eligibility letter (filled example)
-
-> **Re: Determination of Eligibility — Meridian County Courthouse Annex, 118 Court St., Meridian, [State]**
->
-> **Property description:** 1975 poured-concrete Brutalist annex, 3 stories, designed by [firm], built as an addition to the 1898 county courthouse. Age as of survey (2026): 51 years — clears the general 50-year threshold under National Register Bulletin 15; no Criteria Consideration G "exceptional significance" argument is required or made.
->
-> **Criteria evaluated:**
-> - **Criterion A** (association with events): Not met. No documented association with events significant in local, state, or national history beyond routine county administration.
-> - **Criterion B** (association with significant persons): Not met.
-> - **Criterion C** (design/construction): **Met.** A representative, largely unaltered example of late Brutalist civic architecture by [firm], a regionally significant architectural practice; comparable examples in the region have been substantially altered or demolished, making this a rare surviving instance of the type.
-> - **Criterion D** (likely to yield information): Not evaluated — not an archaeological resource.
->
-> **Integrity assessment (seven aspects):** Location — retained (original site). Design — retained (no additions/subtractions to massing). Setting — retained (surrounding civic plaza unchanged since construction). Materials — retained (original exposed-aggregate concrete panels, unpainted). Workmanship — retained. Feeling — retained. Association — retained. **All seven aspects intact.**
->
-> **Determination:** The Meridian County Courthouse Annex is **eligible** for listing on the National Register of Historic Places under Criterion C. This determination triggers Section 106 review for the proposed highway-widening project's partial-taking alternative; a "no adverse effect" finding is not available for any alternative that alters the primary façade.
-
----
-
-## Oral-history interview and consent checklist
-
-Before the interview:
-1. Signed release form on file, specifying: rights granted (archival deposit, publication, broadcast), any restrictions requested (redaction, embargo period, pseudonym), and the repository of record.
-2. Interview scope agreed with the narrator in advance — topics, expected duration (OHA guidance: most life-history interviews run 60–120 minutes per session; longer projects use multiple sessions rather than one marathon sitting).
-3. Recording format and preservation copy specified (uncompressed WAV/broadcast-quality video, not a compressed convenience file).
-
-During the interview:
-4. Open with biographical grounding questions (who, where, when) before moving to interpretive or contested topics — orients the narrator and the eventual transcript reader.
-5. Ask about specific remembered events ("tell me about the day you heard...") rather than opinion questions ("what do you think caused...") — behavioral recall is more reliable than retrospective analysis offered on the spot.
-
-After the interview:
-6. Transcript reviewed by the narrator for accuracy (not for content approval — factual corrections only, tracked as an addendum, not silently edited into the original).
-7. Deposit recording, transcript, and signed release together; note any embargo date in the finding aid.
-
----
-
 ## Peer-review response letter (filled example)
 
 > **Re: Manuscript #2026-114, "Corroboration and Casualty Counts in Strike Historiography"**

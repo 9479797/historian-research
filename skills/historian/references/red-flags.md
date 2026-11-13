@@ -28,18 +28,6 @@ Each entry: what the smell usually means, the first question to ask, and what to
 - **First question:** "Does this document's physical condition match how it claims to have been created and stored?"
 - **Data to pull:** comparable authenticated documents from the same office/period for a condition and format baseline; conservator or forensic-document opinion for high-stakes cases.
 
-### A CRM survey report states "no significant history" after checking fewer than 2–3 independent record types
-
-- **Usually means:** the survey scope was set by budget or deadline pressure rather than by what a defensible negative finding requires — county deed records alone, without newspaper archives, oral history, or state historic-property inventories, is not enough to support "no significance."
-- **First question:** "Which specific repositories and record series were searched, and which weren't?"
-- **Data to pull:** the survey's methodology section; cross-check against the state historic preservation office's minimum survey standards.
-
-### An oral-history interview recording exists with no signed release form on file
-
-- **Usually means:** the interview was conducted informally or under time pressure, and the recording is now legally unusable for deposit, publication, or broadcast regardless of its content value.
-- **First question:** "Do we have a signed release, and does it cover the specific use we're planning?"
-- **Data to pull:** the release form itself; check its scope (archival deposit only vs. publication vs. broadcast) against the intended use.
-
 ### A translated document is quoted in support of a load-bearing claim without checking the source-language term
 
 - **Usually means:** a translator's word choice — sometimes a defensible judgment call, sometimes an era- or agenda-driven gloss — has been treated as a neutral pass-through of the original meaning.
