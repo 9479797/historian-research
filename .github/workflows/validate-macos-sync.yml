@@ -16,4 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Syntax check for local update and installer
-        run: bash -n scripts/sync-macos.sh scripts/install-macos-sync.sh
+        run: |
+          bash -n scripts/sync-macos.sh
+          bash -n scripts/install-macos-sync.sh
