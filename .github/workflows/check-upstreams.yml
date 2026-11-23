@@ -1,0 +1,60 @@
+name: Проверка обновлений исторических навыков
+
+on:
+  schedule:
+    - cron: '43 10 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  upstream-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compare original skill directories
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          check_source() {
+            local title_name="$1" source_repo="$2" source_path="$3" pinned="$4"
+            local current_at_path base_at_path latest_short title body
+            current_at_path="$(gh api "repos/${source_repo}/commits?path=${source_path}&per_page=1" --jq '.[0].sha')"
+            base_at_path="$(gh api "repos/${source_repo}/commits?sha=${pinned}&path=${source_path}&per_page=1" --jq '.[0].sha')"
+            if [[ -z "$current_at_path" || "$current_at_path" == "null" || -z "$base_at_path" || "$base_at_path" == "null" ]]; then
+              echo "::error::Cannot read history for ${title_name}; please check source path and ref."
+              return 1
+            fi
+            if [[ "$current_at_path" == "$base_at_path" ]]; then
+              echo "${title_name}: source directory unchanged since pinned baseline."
+              return 0
+            fi
+            latest_short="${current_at_path:0:12}"
+            title="Обновление исходного ${title_name}: ${latest_short}"
+            if gh issue list --repo "${GITHUB_REPOSITORY}" --state all --limit 500 --json title --jq '.[].title' | grep -Fxq -- "$title"; then
+              echo "${title_name}: already notified at ${latest_short}"
+              return 0
+            fi
+            gh label create upstream-update --repo "${GITHUB_REPOSITORY}" --color D4A017 --description "Обновления оригинальных исторических навыков" --force
+            body="$(mktemp)"
+            cat > "$body" <<EOF
+          @9479797
+
+          В оригинальном проекте **${title_name}** изменились файлы навыка после версии, использованной в твоём репозитории.
+
+          - Репозиторий: [${source_repo}](https://github.com/${source_repo})
+          - Папка: \`${source_path}\`
+          - Исходный pinned SHA: \`${pinned}\`
+          - Последний коммит затронувший папку: \`${current_at_path}\`
+          - [История соответствующей папки](https://github.com/${source_repo}/commits/main/${source_path})
+
+          **Действие:** сравнить исходную методику с адаптированной, выбрать полезные изменения и сохранить необязательные методики проекта. Ничего не переносится автоматически.
+          EOF
+            gh issue create --repo "${GITHUB_REPOSITORY}" --title "$title" --body-file "$body" --label upstream-update --assignee 9479797
+            rm -f "$body"
+          }
+          check_source "Historian" "wonsukchoi/domain-experts" "roles/historian" "e191b35605fd53b7ce9dee3f989c47f46fe4cc8d"
+          check_source "Historian Analyst" "rysweet/amplihack-rs" "docs/claude/skills/historian-analyst" "830ddd9610261be9ec9964918fde6a1f9544cf50"
